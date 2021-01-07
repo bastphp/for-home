@@ -38,4 +38,12 @@ return [
     */
     'fallback_locale' => env('APP_FALLBACK_LOCALE', 'en'),
 
+    'debug' => env('APP_DEBUG', false),
+
+    'jwt_key'  => env('JWT_KEY'),
+
+    'app_url'  => env('APP_URL','https://interface.xuexi8.net/'),
+
+    'exp_time' => env('EXP_TIME', 86400)
+
 ];
